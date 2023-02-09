@@ -5,8 +5,55 @@
 /* first seciton */
 .banner{
     background-image: url(../first-repo/new-year-new-me/images/banner/banner1.png);
-    background-position: auto;
+    background-size: contain;
     text-align: right;
     margin-right: 100px;
+    padding-bottom: 200px;
 }
 
+/* banner-text editing */
+
+.banner-section{
+ padding-top: 150px;
+}
+
+/* second section */
+
+.women-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+/* common  button style */
+.btn{
+    color: rgb(228, 39, 39);
+    background-color: rgb(255, 167, 3);
+ 
+    border: 0;
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: 20px;
+  
+}
+ /* third section */
+.third-img{
+   
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+}
+
+.third-section{
+    margin-top: 10px;
+}
+
+
+/* footer area */
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
